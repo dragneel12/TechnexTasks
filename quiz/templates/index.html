@@ -1,0 +1,10 @@
+{% extends 'account/base.html'%}
+
+{% block content %}
+{% if not user.is_authenticated %}
+<h>you are not signed in user</h3>
+{% else %}
+<h4>hello {{user.username}}</h4>
+<h3>you successfully signed in</h3>
+{% endif %}
+{% endblock %}

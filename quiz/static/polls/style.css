@@ -1,0 +1,19 @@
+.fb{
+    background: url("fblogin.png") no-repeat center top;
+    box-shadow: 2px 2px 8px rgba(0,0,0,.7);
+    border-radius: 5px;
+    width: 198px;
+    height: 37px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+.google{
+    background: url("googlelogin.png") no-repeat center top;
+    box-shadow: 2px 2px 8px rgba(0,0,0,.7);
+    border-radius: 5px;
+    width: 198px;
+    height: 37px;
+    margin: 15px auto;
+    overflow: hidden;
+}
